@@ -2,6 +2,8 @@
 
 view the portfolio live at https://portfolio-ta0m.onrender.com
 
+![Portfolio Preview](https://github.com/rituparna25/portfolio/blob/master/portfolio.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
