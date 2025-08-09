@@ -9,7 +9,7 @@ export const Bio = {
     description:
 "I am a motivated and adaptable individual, eager to embrace new challenges and opportunities. Driven by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a growth-oriented mindset, I am ready to make a meaningful impact and contribute to achieving success.",
     github: "https://github.com/rituparna25",
-    resume: "https://drive.google.com/file/d/1BV7Mua6QTHqVrAo_etlcACPlDnVHudLP/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1ZD_J02yff-GlPEXjFFxA6QhLvuFBm_aH/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/rituparna-biswas-30362a2b8/",
     insta: "https://www.instagram.com/rituparnaaah/",
   };
