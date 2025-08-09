@@ -3,9 +3,8 @@ import img from '../images/img.png';
 export const Bio = {
     name: "Rituparna Biswas",
     roles: [
-      "Full Stack Developer",
+      "Frontend Developer",
       "Data Science Enthusiast",
-      "Programmer",
     ],
     description:
 "I am a motivated and adaptable individual, eager to embrace new challenges and opportunities. Driven by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a growth-oriented mindset, I am ready to make a meaningful impact and contribute to achieving success.",
@@ -120,16 +119,16 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s",
         },
         {
           name: "Canva",
           image:"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/canva-icon.png"
         },
         {
-          name: "Figma",
+          name: "Streamlit",
           image:
-            "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGDKmSgL7UJ6sstMUQTtjI2iDN7ClN2jRZ5Q&s",
         },
         {
           name: "Qlik Sense",
@@ -138,6 +137,10 @@ export const Bio = {
         {
           name: "Jupyter",
           image:"https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg"
+        },
+        {
+          name: "Vercel",
+          image:"https://alanta.nl/img/9d82253bd718a81b0bd52ec8d2161729-vercel.png"
         }
       ],
     },
@@ -150,7 +153,7 @@ export const Bio = {
       role: "Data Analytics Intern",
       company: "IOCL",
       date: "Dec 2024 - Jan 2025",
-      desc: "Developed a customer churn prediction model using ML algorithms. Conducted EDA and built Qlik Sense dashboards for real-time insights. Identified key customer retention factors to improve decision-making.",
+      desc: "Worked on the project, Lubes Customer Disengagement Prediction in which we developed a customer churn prediction model using ML algorithms. Conducted EDA and built Qlik Sense dashboards for real-time insights. Identified key customer retention factors to improve decision-making.",
       skills: ["Python","SQL","Qliksense"],
       doc: "https://drive.google.com/file/d/1qyna6WfjbVXqq5BrI-6vEz38zLcHF58G/view?usp=sharing",
     },
@@ -162,8 +165,8 @@ export const Bio = {
       img: "https://upload.wikimedia.org/wikipedia/en/b/be/Heritage_Institute_of_Kolkata_Logo.png",
       school: "Heritage Institute of Technology , Kolkata",
       date: "Oct 2022 - present",
-      grade: "9.23 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering (Data Science) at Heritage Institute of Technology , Kolkata. I have completed 5 semesters and have a CGPA of 9.23. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Organization and Architecture, among others.",
+      grade: "9.4 CGPA",
+      desc: "I am currently a final year student pursuing a Bachelor's degree in Computer Science and Engineering (Data Science) at Heritage Institute of Technology , Kolkata.I have completed courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Organization and Architecture, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering (Data Science)",
     },
     {
@@ -189,39 +192,54 @@ export const Bio = {
   export const projects = [
     {
       id: 2,
-      title: "TextApp",
-      date: "Jul 2024 - Aug 2024",
-      description:"TextApp is a word counter and a character counting utility which can be used to manipulate your text in the way you want.",      
+      title: "Pokemon Gallery",
+      date: "April 2025 - May 2025",
+      description:"Built and deployed a responsive Pokemon web app using JavaScript and RESTful API, with dynamic search and real-time data display. Hosted on Vercel.",      
       image:
-        "https://github.com/rituparna25/text_utils/blob/main/textapp.png?raw=true",
+        "https://github.com/rituparna25/pokemon-gallery/blob/master/Screenshot%202025-08-09%20103823.png?raw=true",
       tags: [
         "React Js",
         "HTML",
         "CSS",
+        "RESTful API",
       ],
       category: "react web app",
-      github: "https://github.com/rituparna25/text_utils",
-      webapp: "https://rituparna25.github.io/text_utils/",
+      github: "https://github.com/rituparna25/pokemon-gallery",
+      webapp: "https://pokemon-gallery-one.vercel.app/",
     },
     {
       id: 0,
-      title: "NewsMonkey",
-      date: "Aug 2024 - Sept 2024",
-      description:"NewsMonkey is a news app that gives you news from all around the world in different categories like sports , entertainment , general etc.",
+      title: "House Price Prediction",
+      date: "May 2025 - June 2025",
+      description:"An interactive Streamlit web app that predicts real estate prices in Bangalore using a machine learning model trained on actual housing data. Built with Python, Scikit-learn, Pandas, and Streamlit.",
       image:
-        "https://github.com/rituparna25/Newsapp/blob/master/newsapp.png?raw=true",
+        "https://github.com/rituparna25/House_Price_Prediction/blob/main/Screenshot%202025-07-01%20172532.png?raw=true",
       tags: [
-        "React Js",
-        "HTML",
-        "CSS",
+        "Python",
+        "ML",
+        "Streamlit",
+        "scikit-learn",
       ],
-      category: "react web app",
-      github: "https://github.com/rituparna25/Newsapp",
+      category: "streamlit web app",
+      github: "https://github.com/rituparna25/House_Price_Prediction",
+      webapp: "https://housepriceprediction-model.streamlit.app/"
+    },
+    {
+      id: 5,
+      title: "Chronic Kidney Disease Predictor",
+      date: "Jun 2025 - July 2025",
+      description:"An interactive web app that predicts the risk of Chronic Kidney Disease (CKD) using a machine learning model trained on medical data.",
+      image:
+        "https://github.com/rituparna25/Chronic-Kidney-Disease-Predictor/blob/main/Screenshot%202025-08-09%20105152.png?raw=true",
+      tags: [ "Python", "ML", "Streamlit", "scikit-learn"],
+      category: "streamlit web app",
+      github: "https://github.com/rituparna25/Chronic-Kidney-Disease-Predictor",
+      webapp: "https://chronic-kidney-disease-predictor-model.streamlit.app/",
     },
     {
       id: 1,
       title: "iNotebook",
-      date: "Sept 2024 - Nov 2024",
+      date: "Sept 2024 - oct 2024",
       description:"iNotebook is a secure web app to store notes, edit notes, delete and update notes securely in MongoDB Atlas cloud",
            image:
         "https://github.com/rituparna25/notebook/blob/main/notebook.png?raw=true",
@@ -289,64 +307,38 @@ export const Bio = {
     },
     {
       id: 4,
-      title: "Rock-Paper-Scissors",
-      date: "Jan 2024 - Feb 2024",
-      description:"A hand-gesture game where players select rock, paper, or scissors to compete against the computer.",
-      image:"https://github.com/rituparna25/rock-paper-scissors/blob/main/rock_paper.png?raw=true",
-      tags: [ "HTML",
-        "CSS","Javascript"],
-      category: "javascript website game",
-      github: "https://github.com/rituparna25/rock-paper-scissors",
-      webapp: "https://rituparna25.github.io/rock-paper-scissors/",
+      title: "TextApp",
+      date: "Jul 2024 - Aug 2024",
+      description:"TextApp is a word counter and a character counting utility which can be used to manipulate your text in the way you want.",      
+      image:
+        "https://github.com/rituparna25/text_utils/blob/main/textapp.png?raw=true",
+      tags: [
+        "React Js",
+        "HTML",
+        "CSS",
+      ],
+      category: "react web app",
+      github: "https://github.com/rituparna25/text_utils",
+      webapp: "https://rituparna25.github.io/text_utils/",
     },
     {
       id: 3,
-      title: "Tic-Tac-Toe",
-      date: "Jan 2024 - Feb 2024",
-      description:"A 2-player grid-based game where the goal is to align three marks in a row, column, or diagonal to win.",
-      image:"https://github.com/rituparna25/tic-tac-toe_js/blob/main/tictactoe.png?raw=true",
-      tags: [ "HTML",
-        "CSS","Javascript"],
-      category: "javascript website game",
-      github: "https://github.com/rituparna25/tic-tac-toe_js",
-      webapp: "https://rituparna25.github.io/tic-tac-toe_js/",
-    },
-    {
-      id: 5,
-      title: "Simon Game",
-      date: "Jan 2024 - Feb 2024",
-      description:"A memory-based website game where players repeat increasingly complex sequences of flashing lights and sounds.",
+      title: "NewsMonkey",
+      date: "Aug 2024 - Sept 2024",
+      description:"NewsMonkey is a news app that gives you news from all around the world in different categories like sports , entertainment , general etc.",
       image:
-        "https://github.com/rituparna25/simon_game_challenge/blob/main/simon.png?raw=true",
-      tags: [ "HTML","CSS","Javascript"],
-      category: "javascript website game",
-      github: "https://github.com/rituparna25/simon_game_challenge",
-      webapp: "https://rituparna25.github.io/simon_game_challenge/",
-    },
-    {
-      id: 6,
-      title: "Currency Converter",
-      date: "Feb 2024 - Mar 2024",
-      description:"A web app that allows users to convert between various currencies using real-time exchange rates.",
-      image:"https://github.com/rituparna25/currency-converter/blob/main/curr_convert.png?raw=true",
-      tags: [ "HTML","CSS","Javascript"],
-      category: "web app",
-      github: "https://github.com/rituparna25/currency-converter",
-      webapp: "https://rituparna25.github.io/currency-converter/",
-    },
-    {
-      id: 8,
-      title: "Calculator",
-      date: "Jun 2023",
-      description:"a python tkinter project, that is a functional calculator",
-      image:"https://github.com/rituparna25/tkinter-calculator_project/blob/main/calculator.png?raw=true",
-      tags: ["Python","Tkinter"],
-      category: "Tkinter GUI interface",
-      github: "https://github.com/rituparna25/tkinter-calculator_project",
+        "https://github.com/rituparna25/Newsapp/blob/master/newsapp.png?raw=true",
+      tags: [
+        "React Js",
+        "HTML",
+        "CSS",
+      ],
+      category: "react web app",
+      github: "https://github.com/rituparna25/Newsapp",
     },
   ];
   
   export const TimeLineData = [
-    { year: 2023, text: "Started my journey in web developement" },
-    { year: 2025, text: "Worked as a data analytics intern" },
+    { year: 2023, text: "Started my journey in web developement, data science and data analytics" },
+    { year: 2025, text: "Worked as a data analytics intern and upskilling myself with Machine Learning, and AI concepts" },
   ];

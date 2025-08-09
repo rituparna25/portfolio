@@ -104,7 +104,7 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects, from web development to Python-based applications. Here are some of my projects.</Desc>
+          I have worked on a wide range of projects, from web development to Python and ML based applications. Here are some of my projects.</Desc>
 
         <CardContainer>
   {toggle === "all" &&
